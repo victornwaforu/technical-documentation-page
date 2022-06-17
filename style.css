@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    background-color: white;
+    color: #2e2e31;
+    line-height: 1.5;
+}
+
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    color: black;
+    margin: 10px;
+    font-size: 29px;
+    font-weight: thin;
+}
+
+nav {
+    max-width: 200px;
+    border-right: solid;
+    border-color: palegreen;
+    text-decoration: none;
+}
+
+#navbar {
+    text-decoration: none;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: green;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#navbar li {
+    color: #2e2e31;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #2e2e31;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+#chemistry {
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
